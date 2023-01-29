@@ -1,0 +1,42 @@
+:root {
+    --black-color: #111111;
+    --white-color: #ffffff;
+    --primary-color: #1790ff;
+    --primary-light-color: #46a6ff;
+    --primary-dark-color: #0476e0;
+    --grey-color: #8a8a8a;
+    --grey-light-color: #f3f3f3;
+    --grey-light-2-color: #d6d6d6;
+    --transition: all 0.2s linear;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: var(--white-color);
+}
+
+body,
+#app {
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.center-wrapper {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
